@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RavenClaw</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+
+
+<style>
+    /* CSS Reset */
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px;
+        padding:0px;
+        background:url('img/bg.jpg');
+      
+        color:black;
+        
+    }
+    .left{
+        line-height: 20px;
+        font-size: 20px;
+        position: absolute;
+        left:70px;
+        top:20px;
+        display:inline-block;
+        border: 0px solid green;
+        
+
+    }
+    .mid{
+        width: 48%;
+        display: block;
+        margin: 20px auto;
+        /* margin auto takes it to center */
+        border: 0px solid yellow
+
+    }
+    .right{
+        position: absolute;
+        right:40px;
+        top:20px;
+        display:inline-block;
+        border:0px solid palevioletred;
+
+    }
+    .navbar
+    {
+        display: inline-block;
+    }
+    .navbar li{
+       
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+      color: black;
+      text-decoration: none;
+      padding: 20px;
+    
+      font-size: larger;
+        
+    }
+    .navbar li a:hover, .navbar li a.active {
+     text-decoration: underline;
+     color: grey;
+    }
+    .search li a{
+      color: black;
+      text-decoration: none;
+      padding: 20px;
+    }
+        
+
+    
+    .left{
+        width: 71px;
+        height: 95px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn
+    {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 10px;
+        color: beige;
+        background-color: black;
+        padding: 5px 5px;
+        border: 0px solid grey;
+        border-radius: 11px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(59, 40, 40);
+    }
+.container
+{
+    border: 0px solid white;
+    margin: 15px 92px;
+    padding: 52px 52px;
+    width: 33%;
+    border-radius:30px ;
+
+}
+
+.index{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-between;
+    /* align-items: center;  its puts the item in center*/
+
+}
+.index {
+    
+    margin-right: 150px;
+    margin-top: 0px;
+    border: 100px;
+    height: 300px;
+    width: 400px;
+    
+}
+.item1
+{
+    margin-right: 100px;
+    width: 330px;
+            height: 450px;
+            top: 50px;
+  
+}
+.item1 img{
+    width: 330px;
+            height: 400px;
+            top: 50px;
+}
+
+.item2
+{
+   
+    margin-right: 100px;
+    
+
+}
+.item2 img{
+    width: 330px;
+            height: 400px;
+            top: 50px;
+}
+.item3
+{
+    
+    margin-right: 100px;
+    
+
+}
+.item3 img{
+    width: 330px;
+            height: 400px;
+            top: 50px;
+}
+
+</style>
+<body>
+    <header>
+        <!-- left box for buttons -->
+        
+        <div class="left">
+         <img src="img/kk.jpg">
+         <div>
+            Ravenclaw
+         </div>
+        </div>
+            <!-- mid for search -->
+            
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">New Updates</a></li>
+                    <li><a href="#">History</a></li>
+    
+                  </ul>
+
+                <!-- right for search -->
+              <div class="right">
+                    <button class="btn">Library</button>
+                    <!-- <button class="btn">Search </button> -->
+                    <input class="btn"type="text" name=""  placeholder="search">
+
+                </div>
+        </div>
+    </header>
+    
+   <div class="container">
+    hi user
+    <h1>Read your favourite novel</h1>
+   
+     <!-- <div class="form-group">
+         <input type="text" name=""  placeholder="enter your name">
+     </div> -->
+    
+
+    
+
+        <div class="index">
+            <div class="item1">
+                <a href="other.html" style="padding-bottom: 15px;">Seduce The Villians Father</a>
+                    <img src="img/thu.jpg" alt="Seduce Villian's Father">
+                    
+                </a>
+            </div>
+            <div class="item2">
+                <a href="another.html">The Brothers Spoil Me</a>
+                <img src="img/rg.jfif"  alt="My brothers spoil me ">
+               
+            </a>
+            </div>
+               
+        <div class="item3">
+            <a href="offer.html">The Law Of Webnovel</a>
+            <img src="img/tu.jpg" alt="The laws of web novel">
+            
+        </a>
+        </div>
+       
+         </div>
+     
+ 
+
+
+   </div>
+   <div class="novel" >
+
+   </div>
+  
+</body>
+
+</html>
